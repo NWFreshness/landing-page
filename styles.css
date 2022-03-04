@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1f2937;
+    color: white;
+    padding-bottom: 80px;
+}
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 800;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.navLinks a{
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 0 5px 0 5px;
+}
+
+.headerInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerButton {
+    color: white;
+    background-color: #3882f6;
+    padding: 5px 25px 5px 25px;
+    outline: none;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.description {
+    padding-right: 20px;
+}
+.heroSecondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.description p {
+    margin-top: 5px;
+}
+
+.headerImgBox {
+    width: 300px;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+.padMe {
+    padding: 0 120px 0 120px;
+}
+
+/* Information Section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 60px 0;
+    width: 100%;
+}
+
+.infoImages {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.infoImgBox {
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 10%;
+}
+.imgDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgDesc p {
+    margin: 0px;
+    width: 50%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* Quote Section */
